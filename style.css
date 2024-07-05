@@ -18,7 +18,7 @@ body {
   background-color: hsl(185, 75%, 39%);
   background-size: cover;
   background-position: bottom 500px right 120px, top 500px left 100px;
-  font-family: Kumbh Sans;
+  font-family: "Kumbh Sans", sans-serif;
   font-size: 18px;
   display: flex;
   justify-content: center;
@@ -44,15 +44,18 @@ body {
 ul {
   list-style: none;
   display: flex;
-  justify-content: center;
-  width: 220px;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  justify-content: space-evenly;
+  width: 80%;
+  /* padding-top: 20px;
+  padding-bottom: 20px; */
+  padding: 25px 0;
 }
 
 ul li {
   width: 100%;
   font-weight: 700;
+  display: flex;
+  flex-direction: column;
 }
 
 img {
@@ -82,21 +85,25 @@ img {
 }
 
 .age {
-  font-size: 18px;
+  font-size: 17px;
   color: hsl(0, 0%, 59%);
+  font-weight: 700;
+  display: flex;
+  align-items: center;
 }
 
 .location {
-  font-size: 12px;
-  padding-bottom: 20px;
-  /* border-bottom: 1px solid hsl(0, 0%, 59%); */
+  font-size: 13px;
+  font-weight: 700;
+  color: hsl(0, 0%, 59%);
+  padding-bottom: 25px;
   width: 335px;
 }
 
 .same {
   color: hsl(0, 0%, 59%);
-  font-size: 13px;
-  font-weight: 400;
+  font-size: 11px;
+  font-weight: 700;
 }
 
 @media only screen and (min-width: 800px) {
